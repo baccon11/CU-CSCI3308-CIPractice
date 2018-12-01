@@ -1,4 +1,2 @@
 language: c
- make
-
- make test
+compiler: gcc
