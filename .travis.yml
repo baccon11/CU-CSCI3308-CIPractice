@@ -1,3 +1,6 @@
 language: c
 compiler: gcc
-install: make get-deps
+script:
+  -sudo apt-get install check
+  -make
+  -make test
